@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Interests Survey</title>
+    <style>
+        #Name{
+            color: aqua;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://google.co.in">
+        <div align="center">
+            <h1>Employee Interests Survey Form</h1>
+            <p id="Name">Enter your name:
+            <input type="text" name="username"></p>
+            <br>
+            <p id="Department">Enter your department:
+            <input type="text" name="department"></p>
+            <br>
+            <p id="Self Intro">Tell us a little about your self:
+            <textarea name="about your self"  cols="50" rows="10"></textarea></p>
+            <br>
+            <p id="Exercise">Do you exercise at home:</p>
+            <input type="radio" name="exeercise" value="1">Yes
+            <input type="radio" name="exercise" value="2">No
+            <br>
+            <p id="topics">How do you like to read about to your favorite topic?</p>
+            <input type="checkbox" name="Books">Books
+            <input type="checkbox" name="Online Resourse">Online Resourse
+            <input type="checkbox" name="Phone apps">Phone apps
+            <input type="checkbox" name="Magzine">Magzine
+            <br>
+            <p id="do you like movies">What genre of movies do you like?
+            <select name="movies"><option>
+                <option value="1" selected = "ture">commedy
+                <option value="2">Horror
+                <option value="3">Biopic
+            </select> </p>
+            <br>
+            <input id="Sumbit" type="submit" value="Submit Form">
+        </div>
+    </form>
+</body>
+</html>
